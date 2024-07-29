@@ -724,6 +724,8 @@ textarea::placeholder {
 }
 
 .privacy-label {
+    display: flex;
+    align-items: center;
     margin-bottom: 0;
 }
 
@@ -740,6 +742,7 @@ textarea::placeholder {
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 input[type="checkbox"]:checked+label .check-style {
